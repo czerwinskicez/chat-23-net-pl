@@ -20,7 +20,7 @@ jobs:
 
       - name: Deploy to server
         run: |
-          ssh -o StrictHostKeyChecking=no chat-app@frog02.mikr.us << 'EOF'
+          ssh -o StrictHostKeyChecking=no -p 10605 chat-app@frog02.mikr.us << 'EOF'
             cd /home/chat-app
             git pull origin main
             rc-service chat-23-net-pl restart
