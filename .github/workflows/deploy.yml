@@ -20,9 +20,9 @@ jobs:
 
       - name: Deploy to server
         run: |
-          ssh -o StrictHostKeyChecking=no -p 10605 chat-app@frog02.mikr.us << 'EOF'
-            cd /home/chat-app
+          ssh -o StrictHostKeyChecking=no -p 10605 chat-23-net-pl@frog02.mikr.us << 'EOF'
+            cd /home/chat-23-net-pl
             git pull origin main
-            rc-service chat-23-net-pl restart
+            # rc-service chat-23-net-pl restart
             # Restart the app if needed, e.g., pm2 restart chat-app or systemctl restart chat-app
           EOF
