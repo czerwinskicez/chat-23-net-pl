@@ -1,0 +1,45 @@
+
+body{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #323232;
+}
+.messagesTable thead{
+    font-weight: bold;
+}
+.📅{
+    display: none;
+}
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+      left: 0!important;
+      transform: translateX(0)!important;
+      color: #ffffffbc!important;
+  }
+  .preloader-wrapper-top{
+    width: 100%;
+    position: absolute;
+  }
+  .progress{
+    margin: 0 !important;
+  }
+}
+.tabs.transparent-paper{
+  background-color: rgba(0,0,0,0.66);
+}
+.tabs.transparent-paper li a{
+  color: #fff;
+  &:hover{
+    color: #232323;
+  }
+}
+nav{
+    position: fixed;
+}
+
+.fixed-action-btn{
+    right: auto;
+    left: 23px;
+}

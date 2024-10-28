@@ -1,0 +1,20 @@
+{
+  "name": "onion.23.net.pl",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "sass public/sass/materialize.scss public/css/materialize.css",
+    "dev": "nodemon server.js -port 30232"
+  },
+  "author": "Wu",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "materialize-css": "^1.0.0",
+    "nodemon": "^3.1.7",
+    "sass": "^1.79.4",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.0"
+  }
+}
